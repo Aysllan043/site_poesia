@@ -1,38 +1,38 @@
 @charset "UTF-8";
-h1 {
-  text-align: center;
-  font-family: unset;
-}
-p {
-  font-size: 15pt;
-  text-align: center;
-}
-li {
-  position: relative;
-  left: 100px;
-  top: 15px;
-}
+h1{
+			text-align: center;
+			font-family: unset;
+		}
+		p{
+			font-size: 15pt;
+			text-align: center;
 
-body {
-  background-color: #2cb2b4;
-}
-figure.link {
-  position: relative;
-  left: -40px;
-}
-figure.link figcaption {
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 8%;
-  height: 95%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-figure.link:hover figcaption {
-  opacity: 1;
-  transition: 1s;
-}
+		}
+		li{
+			position: relative ; left: 100px; top: 15px
+		}
+		
+		body{
+			background-color: #19d0a2
+		}
+		figure.link{
+
+			position: relative; left: -40px;
+			
+		}
+		figure.link figcaption{
+			opacity: 0;
+			position: absolute;
+			text-align: center;
+			top: 0px;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.6);
+			width: 8%;
+			height: 95%;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+		figure.link:hover figcaption{
+			opacity: 1;
+			transition: 1s;
+		}
