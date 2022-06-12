@@ -8,6 +8,9 @@ h1{
 			text-align: center;
 
 		}
+		ul{
+			list-style: none;
+		}
 		li{
 			position: relative ; left: 100px; top: 15px
 		}
